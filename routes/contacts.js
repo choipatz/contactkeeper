@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // @route    GET api/contacts
-// @desc     Get all contacts
+// @desc     Get all users contacts
 // @access   Private
 router.get('/', (req, res) => {
     res.send('Get all contacts');
@@ -29,4 +29,4 @@ router.delete('/:id', (req, res) => {
     res.send('Delete contact');
 });
 
-module.export = router;
+module.exports = router;
