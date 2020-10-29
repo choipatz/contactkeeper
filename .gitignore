@@ -1,7 +1,7 @@
 node_modules/
 .idea/
 
-# /client/build
+/client/build
 
 .DS_Store
 /client/.env.local
